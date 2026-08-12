@@ -136,16 +136,49 @@ namespace week_1_SP
             {
                 Console.WriteLine("Language : " + language);
             }
-
-            Console.WriteLine("Traineer's Information is : ");
-            Console.WriteLine("-------------------------------");
-            Console.WriteLine("Traineer 1 : ");
+            Console.WriteLine("Choose a langauage from the list above : ");
+            int choice = Convert.ToInt32(Console.ReadLine());
+            switch (choice) {
+                case 1: Console.WriteLine("C# language ");
+                    break;
+                        case 2:
+                    Console.WriteLine("C++ language ");
+                    break;
+                case 3:
+                    Console.WriteLine("Python language ");
+                    break;
+                case 4:
+                    Console.WriteLine("Java language ");
+                    break;
+                case 5:
+                    Console.WriteLine("JavaScript language ");
+                    break;
+                case 6:
+                    Console.WriteLine("PHP language ");
+                    break;
+                case 7:
+                    Console.WriteLine("Ruby language ");
+                    break;
+                case 8:
+                    Console.WriteLine("Swift language ");
+                    break;
+                case 9:
+                    Console.WriteLine("Koltin language ");
+                    break;
+                case 10:
+                    Console.WriteLine("Go language ");
+                    break;
+                case 11:
+                    Console.WriteLine("Rust language ");
+                    break;
+            }
+            Console.WriteLine("---------------Traineer's Information is :----------------");
+            Console.WriteLine("-----------------------Traineer 1 :------------------------------------ ");
             Console.WriteLine("Name : " + tr1);
             Console.WriteLine("Age : " + age1);
             Console.WriteLine("Trainig Hourse : " + TrainingHours1+" hourse");
             Console.WriteLine("Has a Git Account ?  " + hasGitAccount1);
-            Console.WriteLine("-------------------------------");
-            Console.WriteLine("Traineer 2 : ");
+            Console.WriteLine("---------------Traineer 2 :----------------");
             Console.WriteLine("Name : " + tr2);
             Console.WriteLine("Age : " + age2);
             Console.WriteLine("Trainig Hourse : " + TrainingHours2 + " hourse");
